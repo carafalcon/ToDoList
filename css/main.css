@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Yantramanav:300);
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 3, /Users/carafalcon/Documents/todo/css/sticky-footer.css */
+html {
+  position: relative;
+  min-height: 100%; }
+
+/* line 7, /Users/carafalcon/Documents/todo/css/sticky-footer.css */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
+/* line 11, /Users/carafalcon/Documents/todo/css/sticky-footer.css */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5; }
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+/* line 25, /Users/carafalcon/Documents/todo/css/sticky-footer.css */
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px; }
+
+/* line 30, /Users/carafalcon/Documents/todo/css/sticky-footer.css */
+.container .text-muted {
+  margin: 20px 0; }
+
+/* line 5, /Users/carafalcon/Documents/todo/scss/_style.scss */
+body {
+  background-color: #1f2532;
+  font-family: 'Yantramanav', sans-serif;
+  line-height: normal; }
+
+/* line 13, /Users/carafalcon/Documents/todo/scss/_style.scss */
+h1 {
+  color: #fff;
+  margin-bottom: 20pt;
+  margin-top: 30pt; }
+
+/* line 19, /Users/carafalcon/Documents/todo/scss/_style.scss */
+h3 {
+  color: #fff; }
+
+/* line 25, /Users/carafalcon/Documents/todo/scss/_style.scss */
+#arrow {
+  width: 10pt;
+  color: #fff;
+  font-size: 1.3em;
+  padding-right: 0;
+  text-align: left;
+  margin-top: .6em; }
+
+/* line 34, /Users/carafalcon/Documents/todo/scss/_style.scss */
+.item-container {
+  width: 100%;
+  margin-bottom: 20pt;
+  padding-left: 0;
+  padding-right: 0; }
+
+/* Removes default border */
+/* line 45, /Users/carafalcon/Documents/todo/scss/_style.scss */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+/* line 49, /Users/carafalcon/Documents/todo/scss/_style.scss */
+#open-item {
+  background: transparent;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #fe3265;
+  padding-bottom: 5pt;
+  padding-left: 20pt;
+  font-size: 1.5em;
+  color: #fff;
+  margin-top: 5pt;
+  width: 95.5%; }
+
+/* line 64, /Users/carafalcon/Documents/todo/scss/_style.scss */
+.list-item,
+.completed-item {
+  background-color: #fff;
+  color: #000;
+  padding: 5pt;
+  width: 100%;
+  vertical-align: middle;
+  position: relative; }
+
+/* line 75, /Users/carafalcon/Documents/todo/scss/_style.scss */
+#count-open,
+#count-completed {
+  font-size: .7em;
+  color: #fff;
+  background-color: #fe3265; }
+
+/* line 82, /Users/carafalcon/Documents/todo/scss/_style.scss */
+.warning-style {
+  color: #fff;
+  border: 1px solid #fe3265;
+  background-color: transparent;
+  padding: 15pt;
+  border-radius: 10px; }
+
+/* line 92, /Users/carafalcon/Documents/todo/scss/_style.scss */
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1; }
+
+/* line 98, /Users/carafalcon/Documents/todo/scss/_style.scss */
+input[type="checkbox"] + span {
+  color: #000;
+  vertical-align: middle; }
+
+/* line 103, /Users/carafalcon/Documents/todo/scss/_style.scss */
+input[type="checkbox"] + span:before {
+  font: 16pt FontAwesome;
+  content: '\00f096';
+  display: inline-block;
+  width: 16pt;
+  margin-right: 0.3em;
+  vertical-align: middle; }
+
+/* line 112, /Users/carafalcon/Documents/todo/scss/_style.scss */
+input[type="checkbox"]:checked + span:before {
+  content: '\00f046';
+  vertical-align: middle; }
+
+/* line 117, /Users/carafalcon/Documents/todo/scss/_style.scss */
+input[type="checkbox"]:not(:disabled) + span:hover:before {
+  content: '\00f046'; }
+
+/* line 121, /Users/carafalcon/Documents/todo/scss/_style.scss */
+input[type="checkbox"]:checked + span:hover:before {
+  content: '\00f096'; }
+
+/* line 127, /Users/carafalcon/Documents/todo/scss/_style.scss */
+.glyphicon-remove-circle {
+  font-size: 1.3em;
+  margin: 0.3em;
+  color: #dadada;
+  text-align: right;
+  position: absolute;
+  right: 0.2em;
+  top: 0.17em; }
+
+/* line 137, /Users/carafalcon/Documents/todo/scss/_style.scss */
+.glyphicon-remove-circle:hover {
+  color: #444444; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,139 @@
+$accent: #fe3265; // pink
+$bg: #1f2532; // dark blue
+$grey: #868a94;
+
+body {
+  background-color: $bg;
+  font-family: 'Yantramanav', sans-serif;
+  line-height: normal;
+}
+
+// Headers
+
+h1 {
+  color: #fff;
+  margin-bottom: 20pt;
+  margin-top: 30pt;
+}
+
+h3 {
+  color: #fff;
+}
+
+// Input Styling
+
+#arrow {
+  width: 10pt;
+  color: #fff;
+  font-size: 1.3em;
+  padding-right: 0;
+  text-align: left;
+  margin-top: .6em;
+}
+
+.item-container {
+  width: 100%;
+  margin-bottom: 20pt;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Removes default border */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+#open-item {
+  background: transparent;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: $accent;
+  padding-bottom: 5pt;
+  padding-left: 20pt;
+  font-size: 1.5em;
+  color: #fff;
+  margin-top: 5pt;
+  width: 95.5%;
+}
+
+// Items in List
+.list-item,
+.completed-item {
+  background-color: #fff;
+  color: #000;
+  padding: 5pt; 
+  width: 100%;
+  vertical-align: middle;
+    position: relative;
+}
+
+// Counters
+#count-open,
+#count-completed {
+    font-size: .7em;
+    color: #fff;
+    background-color: $accent;
+}
+
+// Warning box
+.warning-style {
+    color: #fff;
+    border: 1px solid $accent;
+    background-color: transparent;
+    padding: 15pt;
+    border-radius: 10px;
+}
+
+// Checkbox styling
+
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+input[type="checkbox"]+span {
+    color: #000;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]+span:before {
+    font: 16pt FontAwesome;
+    content: '\00f096';
+    display: inline-block;
+    width: 16pt;
+    margin-right: 0.3em;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked+span:before{
+    content: '\00f046';
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:not(:disabled)+span:hover:before {
+    content: '\00f046';
+}
+
+input[type="checkbox"]:checked+span:hover:before {
+    content: '\00f096';
+}
+
+// Glyphicon styling
+
+.glyphicon-remove-circle {
+    font-size: 1.3em;
+    margin: 0.3em;
+    color: #dadada;
+    text-align: right;
+    position: absolute;
+    right: 0.2em;
+    top: 0.17em;
+}
+
+.glyphicon-remove-circle:hover {
+    color: #444444;
+}
